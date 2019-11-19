@@ -1,0 +1,123 @@
+Hanseit Sherhan IT1904
+practice work;
+
+
+
+ 1**
+#include <iostream>
+using namespace std;
+ int main() {
+     cout<<"Silence is golden"<<endl;
+     return 0;
+ }
+
+2**
+#include <iostream>
+using namespace std;
+ int main() {
+     cout << "Monday" <<  endl;
+     cout <<"November" <<endl;
+     cout <<"Sherhan" << endl;
+     return 0;
+ }
+
+3**
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    cout << "Введите n:";
+
+    cin >> n;
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            cout << "0";
+        }
+        cout<<endl;
+    }
+    return 0;
+}
+
+4**
+#include <iostream>
+using namespace std;
+int main() {
+
+    for (int i = 0; i < 5; i++) {
+        for (int j = 0; j < 8; j++) {
+            cout << "A";
+        }
+
+        cout << endl;
+    }
+
+    return 0;
+}
+
+5**
+#include <iostream>
+using namespace std;
+int main() {
+
+for (int i = 0; i<4; i++){
+    for (int j =0; j<13; j++){
+        if(i==j || (j-6)==i || (j+i)==6|| (j+i)==12){
+            cout<<"*";
+        }
+        else
+        cout<<" ";
+    }
+    cout<<endl;
+}
+
+return 0;
+}
+
+🔄️6**
+#include <iostream>
+using namespace std;
+int main() {
+    cout << 1 + 2 - 4 << endl;
+    return 0;
+}
+
+😍️7**
+#include <iostream>
+using namespace std;
+int main() {
+   cout<<0.5+0.25<<endl;
+
+    return 0;
+}
+
+8**
+#include <iostream>
+using namespace std;
+int main() {
+    float a ;
+    float b ;
+    cin >> a >> b;
+    cout << (a+4*b)*(a-3*b)+a*a<<endl;
+    return 0;
+}
+
+🎹️9**
+#include <iostream>
+using namespace std;
+int main() {
+    float x ;
+    cin>>x;
+   cout<< abs(x)+x*x*x*x*x<<endl;
+return 0;
+}
+
+10**
+#include <iostream>
+using namespace std;
+int main() {
+    float x;
+    cin>>x;
+    cout<<(x+1)*(x+1)+3*(x+1)<<endl;
+    return 0;
+
+}
