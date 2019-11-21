@@ -1,9 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-	int a, b;
-	cin>>a>>b;
-	if(a>30 || b>30){
+	int a,b,c;
+	cin>>a>>b>>c;
+	if((a<5&&b<5&&c>5)||(c<5&&b<5&&a>5)||(a<5&&c<5&&b>5)){
 		cout<<"Yes";
 	}else{
 		cout<<"No";
